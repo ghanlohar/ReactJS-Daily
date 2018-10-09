@@ -2,7 +2,7 @@ import React from 'react';
 
 const GameOver = (props) => {
     return (
-        <div className="">
+        <div className="col">
             <h3>{props.doneStatus}</h3>
         </div>
     );
