@@ -37,11 +37,11 @@ const Button = (props) => {
   );
 
 
-    return (
+   /* return (
         <div className="col">
             <button className='btn' disabled={props.selection.length === 0}>=</button>
         </div>
-    );
+    );*/
 } 
 
 export default Button;
