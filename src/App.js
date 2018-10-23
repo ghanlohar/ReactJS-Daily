@@ -7,6 +7,7 @@ import CardList from './userlist/CardList';
 import Main from './game/Main';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.css';
+import Calculator from './LiftStatesDemo/Calculator';
 
 class App extends Component {
 
@@ -39,14 +40,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-
+        <Calculator /> 
         <h2>Game</h2>
         <Main />
         <br/>
